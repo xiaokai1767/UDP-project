@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 24 2001 (http://www.xmlspy.com) by Vladislav Gavrielov (Altova) -->
+<DataSheet>
+  <FRAME name ="frame_1" ip="192.168.1.100" port="8888" len="6">
+	  <CTRL type="3" dataType = "unsigned" nameStatic="目标活动标志" wnum = "0" bitBegin ="0" bitEnd ="0" lsb ="1">
+		  <enum name="无效" val="0"/>
+		  <enum name="有效" val="1"/>
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned"  nameStatic="经度信息" wnum = "1" bitBegin ="0" bitEnd ="15" lsb ="0.66">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="纬度信息" wnum = "2" bitBegin ="0" bitEnd ="15" lsb ="0.66">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="高度信息" wnum = "3" bitBegin ="0" bitEnd ="15" lsb ="2.0">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="天向速度" wnum = "4" bitBegin ="0" bitEnd ="7" lsb ="1">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="北向速度" wnum = "4" bitBegin ="8" bitEnd ="15" lsb ="1">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="东向速度" wnum = "5" bitBegin ="0" bitEnd ="7" lsb ="1">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="合加速度信息" wnum = "5" bitBegin ="8" bitEnd ="15" lsb ="1">
+	  </CTRL>
+	  <CTRL type="3" dataType = "unsigned" nameStatic="数据源有效标志" wnum = "0" bitBegin ="1" bitEnd ="3" lsb ="1">
+		  <enum name="无效" val="0"/>
+		  <enum name="有效" val="1"/>
+		  <enum name="不确定" val="2"/>
+		  <enum name="未知" val="3"/>
+	  </CTRL>
+	  <CTRL type="3"  dataType = "unsigned" nameStatic="控制命令" wnum = "0" bitBegin ="4" bitEnd ="5" lsb ="1">
+		  <enum name="停止" val="0"/>
+		  <enum name="开始" val="1"/>
+		  <enum name="暂停" val="2"/>
+	  </CTRL>
+
+  </FRAME >
+</DataSheet>

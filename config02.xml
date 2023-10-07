@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 24 2001 (http://www.xmlspy.com) by Vladislav Gavrielov (Altova) -->
+<DataSheet>
+  <FRAME name ="frame_1" ip="192.168.1.101" port="8888" len="2">
+	 
+	  <CTRL type="1" dataType = "unsigned" nameStatic="信息1" wnum = "0" bitBegin ="0" bitEnd ="3" lsb="1">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="信息2" wnum = "0" bitBegin ="4" bitEnd ="6" lsb="1">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="信息3" wnum = "1" bitBegin ="0" bitEnd ="15" lsb="0.5">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="信息4" wnum = "2" bitBegin ="0" bitEnd ="15" lsb="0.03">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="信息5" wnum = "3" bitBegin ="0" bitEnd ="8" lsb="0.01">
+	  </CTRL>
+	  <CTRL type="1" dataType = "unsigned" nameStatic="信息5" wnum = "3" bitBegin ="9" bitEnd ="15" lsb="3">
+	  </CTRL>
+	 
+	
+
+  </FRAME >
+</DataSheet>
